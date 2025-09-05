@@ -73,16 +73,17 @@
                 flex-direction: column;
             }
         }
-	.responsive-img {
+	.responsive-image {
 		max-width: 100%;
-		width: 100%;
+		width: 25%;
 		display: block;
 		height: auto;
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
+		
 	}
-	img {
-		width: 100%;
-		max-width: 250px;
-	}
+	
     </style>
 </head> 
 
@@ -95,7 +96,7 @@
             <h1>Deeptha Babu's Arangetram</h1>
 	    <h4 style="text-align: center;">(Please view the website in landscape mode)</h4>
             <div class='photo'>
-                <img src='./nataraja.jpg' alt='nataraja'>
+                <img class="responsive-image" src='./nataraja.jpg' alt='nataraja'>
             </div>
             <p style="text-align: justify; distrubute;"><span style="font-size: 1.2em;">Celebrate the artistic journey of Deeptha Babu as she takes the stage for her Arangetram, guided by her esteemed Guru, Smt. Vidyalakshmi Vinod. This landmark performance is a testament to years of unwavering dedication, disciplined training, and a profound connection to the rich tradition of Bharatanatyam.</span></p>
             <p style="text-align: center; font-size: 1.2em;"><strong>Date:</strong> September 13th @ 2.30 PM</p>
